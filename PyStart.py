@@ -42,6 +42,3 @@ def another_parse_log(log_entries):
 
 if __name__ == "__main__":
     print(parse_logs(log_lines) == another_parse_log(log_lines))
-
-
-
